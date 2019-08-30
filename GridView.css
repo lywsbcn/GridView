@@ -1,0 +1,247 @@
+﻿
+
+.jh-girdview6 {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 12px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.jh-girdview6 > tbody > tr,
+.jh-girdview6 > tr {
+    background: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+.jh-girdview6 > tbody > tr > td,
+.jh-girdview6 > tr > td {
+    border: 1px solid #dddddd;
+}
+
+.jh-girdview6 > tbody > tr:nth-child(odd),
+.jh-girdview6 > tr:nth-child(odd) {
+    background: #fafafa;
+}
+
+.jh-girdview6 > tbody > tr:hover, .jh-girdview6 > tbody > tr:nth-child(odd):hover,
+.jh-girdview6 > tr:hover, .jh-girdview6 > tr:nth-child(odd):hover {
+    background: #edf3fe
+}
+
+.jh-girdview6 > tbody > tr:first-child,
+.jh-girdview6 > tr:first-child {
+    background: rgba(52,73,94,.94);
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+}
+
+
+.jh-girdview6 > tbody > tr:first-child:hover,
+.jh-girdview6 > tr:first-child:hover {
+    background: rgba(52,73,94,.94);
+}
+
+
+/* gridview */
+
+
+
+/*
+    白色调
+    高度 40
+    字体大小 13
+*/
+.jh-gridview1 {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.jh-gridview1 td {
+    white-space: nowrap;
+    padding: 0 10px;
+}
+
+.jh-gridview1 > tbody > tr,
+.jh-gridview1 > tr {
+    background: #FFFFFF;
+    height: 40px;
+    line-height: 40px;
+}
+
+/*所有单元格颜色*/
+.jh-gridview1 > tbody > tr > td,
+.jh-gridview1 > tr > td {
+    border: 1px solid #dddddd;
+}
+
+/*奇数行颜色*/
+.jh-gridview1 > tbody > tr:nth-child(odd),
+.jh-gridview1 > tr:nth-child(odd) {
+    background: #fefefe;
+}
+
+/*奇数行,鼠标变色*/
+.jh-gridview1 > tbody > tr:hover,
+.jh-gridview1 > tbody > tr:nth-child(odd):hover,
+.jh-gridview1 > tr:hover,
+.jh-gridview1 > tr:nth-child(odd):hover {
+    background: #fafafa
+}
+
+/*表头*/
+.jh-gridview1 > tbody > tr:first-child,
+.jh-gridview1 > tr:first-child {
+    background: #FFFFFF;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    color: #555;
+}
+
+/*表头,鼠标变色*/
+.jh-gridview1 > tbody > tr:first-child:hover,
+.jh-gridview1 > tr:first-child:hover {
+    background: #FFFFFF
+}
+
+
+
+
+/*
+    .jh-gridview2
+    白色调
+    高度 35
+    字体大小 13
+*/
+.jh-gridview2 {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 12px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.jh-gridview2 td {
+    white-space: nowrap;
+    padding: 0 10px;
+}
+
+.jh-gridview2 > tbody > tr,
+.jh-gridview2 > tr {
+    background: #FFFFFF;
+    height: 35px;
+    line-height: 25px;
+}
+
+/*所有单元格颜色*/
+.jh-gridview2 > tbody > tr > td,
+.jh-gridview2 > tr > td {
+    border: 1px solid #dddddd;
+}
+
+/*奇数行颜色*/
+.jh-gridview2 > tbody > tr:nth-child(odd),
+.jh-gridview2 > tr:nth-child(odd) {
+    background: #fefefe;
+}
+
+/*奇数行,鼠标变色*/
+.jh-gridview2 > tbody > tr:not([select]):hover,
+.jh-gridview2 > tbody > tr:nth-child(odd):not([select]):hover,
+.jh-gridview2 > tr:not([select]):hover,
+.jh-gridview2 > tr:nth-child(odd):not([select]):hover {
+    background: #fafafa
+}
+
+/*表头*/
+.jh-gridview2 > tbody > tr:first-child,
+.jh-gridview2 > tr:first-child {
+    background: #FFFFFF;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    color: #555;
+}
+
+/*表头,鼠标变色*/
+.jh-gridview2 > tbody > tr:first-child:hover,
+.jh-gridview2 > tr:first-child:hover {
+    background: #FFFFFF
+}
+
+
+/**           */
+
+
+.jh-gridview3 {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 12px;
+    border:1px solid #ddd;
+    border-bottom-width:0;
+}
+
+.jh-gridview3 td {
+    white-space: nowrap;
+    padding: 20px 0px;
+}
+
+.jh-gridview3 > tbody > tr,
+.jh-gridview3 > tr {
+    background: #FFFFFF;
+    height: 35px;
+    line-height: 25px;
+}
+
+/*所有单元格颜色*/
+.jh-gridview3 > tbody > tr > td,
+.jh-gridview3 > tr > td {
+    border-bottom: 1px solid #dddddd;
+}
+
+/*奇数行颜色
+.jh-gridview3 > tbody > tr:nth-child(odd),
+.jh-gridview3 > tr:nth-child(odd) {
+    background: #fefefe;
+}
+*/
+/*奇数行,鼠标变色
+.jh-gridview3 > tbody > tr:hover,
+.jh-gridview3 > tbody > tr:nth-child(odd):hover,
+.jh-gridview3 > tr:hover,
+.jh-gridview3 > tr:nth-child(odd):hover {
+    background: #fafafa
+}
+*/
+/*表头*/
+.jh-gridview3 > tbody > tr:first-child,
+.jh-gridview3 > tr:first-child {
+    background: #f2f2f2;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    color: #555;
+}
+
+.jh-gridview3 > tbody > tr:first-child >td,
+.jh-gridview3 > tr:first-child > td{
+    padding: 0px;
+}
+
+/*表头,鼠标变色
+.jh-gridview3 > tbody > tr:first-child:hover,
+.jh-gridview3 > tr:first-child:hover {
+    background: #FFFFFF
+}
+
+
+*/
